@@ -1,0 +1,351 @@
+
+/*
+Estilo geral
+*/
+
+main{
+        width: 1000px;
+        margin:0 auto;
+        padding-left: 20px;		
+        padding-right: 20px;
+        box-sizing: border-box;	
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: 'Noto Sans KR', sans-serif; 
+    margin:0;
+    padding:0;
+    height:100%;
+    background-color: rgb(216, 216, 216);
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+    margin-top: 0;
+    font-size: 35px;
+}
+a:hover{
+    color:rgb(111, 177, 170);
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+/*
+Header
+*/
+
+#meunome{
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(235, 232, 232);
+    text-align: left;
+    padding-left: 50px;
+    text-shadow: 2px 2px  #000000;
+    margin: 0;
+}
+header {
+    font-family: 'Bebas Neue', cursive;
+    text-align: right;
+    height: 100%;
+    background-image: url(/img/fundov2.png);
+}
+
+#menutopo{
+    list-style: none;
+    margin-top: 0;
+    min-height: 300px;
+    padding-right: 20px;
+}
+.menutopo-opcoes{
+    display: inline;
+    color: #EEFBFB;
+    padding: 0 15px;
+}
+.opcoesbg{
+    background: rgb(224, 210, 189, 0.15) ;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/*
+Body
+*/
+
+section{
+    margin: 0;
+    display: inline-block;
+    border-top: 2px solid black;
+}
+.icones{
+    width: 150px;
+    height: 150px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.textos{
+    padding-top: 10px;
+    font-size: 20px;
+    text-align:justify;
+    padding-bottom: 25px;
+    margin:0;
+    min-width: 960px;
+}
+/* 
+Habilidades 
+*/
+
+.iconeshabilidades{
+    float: left;
+    height: 100px;
+    width: 100px;
+    padding-right: 30px;
+
+}
+.textopequenohabilidades{
+    color: rgb(80, 80, 80);
+}
+.habilidadeslista{
+    padding-bottom: 5px;
+}
+.habilidadediferente{
+    text-align: center;
+    font-weight: bold;
+}
+.habilidadesmeio{
+    color: rgb(37, 37, 37);
+}
+/* 
+Educação 
+*/
+
+.iconeseducacao{
+    float: left;
+    height: 100px;
+    width: 100px;
+    padding-right: 20px;
+}
+
+.iconeseducacao:hover{
+    height: 110px;
+    width: 110px;
+    transition: 0.5s;
+}
+
+/* 
+Experiencias 
+*/
+
+.listasexperiencias{
+    text-align: justify;
+}
+#emant{
+    float: left;
+    height: 60px;
+    width: 100px;
+    padding-right: 30px;
+}
+#ntsolar{
+    float: left;
+    height: 110px;
+    width: 100px;
+    padding-right: 30px;
+}
+#ntsolar:hover{
+    height: 120px;
+    width: 110px;
+    transition: 0.5s;
+}
+#fitesa{
+    float: left;
+    height: 80px;
+    width: 110px;
+    padding-right: 20px;
+}
+#fitesa:hover{
+    height: 90px;
+    width: 120px;
+    transition: 0.5s;
+}
+
+/* 
+Projetos 
+*/
+
+#projetostexto{
+    text-align: center;
+    font-size: 30px;
+    font-size: 20px;
+    padding-bottom: 25px;
+    margin:0;
+    max-width: 960px;
+}
+.projetosimg{
+    height: 300px;
+    width: 410px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5%;
+}
+.projetosimg:hover{
+    transition: 0.2s;
+    border: 3px solid rgb(24, 103, 206);
+}
+.titulotextos{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px  #000000;
+    margin:0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#projetoslista{
+    list-style: none;
+    margin: 0;
+    display: block;
+    padding-left: 0px;
+    text-align: center;
+}
+.projetolistados{
+    display: inline-block;
+    text-align: center;
+    padding: 0 30px;
+}
+.nomedoprojeto{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 
+Contato 
+*/
+
+input[type=text], textarea {
+width: 100%;
+  padding: 5px;
+  border: 1px solid rgb(138, 138, 138); 
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 20px;
+  resize:none;
+}
+input[type=submit] {
+    background-color: rgb(24, 103, 206);
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color:rgb(22, 86, 170);
+  }
+
+/*
+Footer
+*/
+
+footer{
+    padding-top: 25px;
+    background-color: rgb(105, 105, 105);
+    box-sizing: border-box;	
+
+}
+#imagenscontatos{
+    list-style: none;
+    margin-top: 0;
+    min-height: 50px;
+}
+.contatos{
+    display: inline;
+    padding: 0 30px;
+}
+.iconescontatos{
+    height: 40px;
+    width: 40px;
+}
+.footerinteiro{
+        width: 960px;
+        margin:0 auto;
+        box-sizing: border-box;	
+        height: 80px;
+}
+
+.footerlado{
+    width: 50%;
+}
+.iconescontatos:hover{
+    background-color: rgb(24, 103, 206);
+    border-radius: 65%;
+    height: 50px;
+    width: 50px;
+    transition: 0.2s;
+}
+#ulfooterinteiro{
+    padding-left: 0;
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding-left: 0px;
+    
+}
+
+#footerdir{
+    float: right;
+}
+#footeresq{
+    float: left;
+}
+
+/* portfolio */
+
+.prints{
+    width: 800px;
+    height: 400px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2%;
+    margin-bottom: 20px;
+}
+.subtitulotextos{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px  #000000;
+    margin:0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 2px solid black;   
+}
+#portfoliocontainer{
+    text-align: center;
+}
+ol{
+    padding-left: 20px;
+}
+.containerbotao{
+    margin:0;
+    padding-bottom: 20px;
+}
+.botao-voltar{
+    background-color: rgb(24, 103, 206);
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botao-voltar:hover{
+    background-color:rgb(22, 86, 170);
+}
