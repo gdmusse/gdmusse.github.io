@@ -95,9 +95,25 @@ section{
     padding-top: 10px;
     font-size: 20px;
     text-align:justify;
-    padding-bottom: 25px;
     margin:0;
     min-width: 960px;
+}
+.containervoltar{
+    margin:0;
+    padding-bottom: 20px;
+    text-align: right;
+}
+.botao-voltar{
+    background-color: rgb(24, 103, 206);
+    color: white;
+    padding: 2.5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.botao-voltar:hover{
+    background-color:rgb(22, 86, 170);
 }
 /* 
 Habilidades 
@@ -189,12 +205,14 @@ Projetos
     max-width: 960px;
 }
 .projetosimg{
-    height: 300px;
-    width: 410px;
+    height: 250px;
+    width: 300px;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 5%;
 }
 .projetosimg:hover{
+    height: 260px;
+    width: 310px;
     transition: 0.2s;
     border: 3px solid rgb(24, 103, 206);
 }
@@ -338,7 +356,7 @@ ol{
     margin:0;
     padding-bottom: 20px;
 }
-.botao-voltar{
+.botao-home{
     background-color: rgb(24, 103, 206);
     color: white;
     padding: 5px 20px;
@@ -346,6 +364,6 @@ ol{
     border-radius: 5px;
     cursor: pointer;
 }
-.botao-voltar:hover{
+.botao-home:hover{
     background-color:rgb(22, 86, 170);
 }
