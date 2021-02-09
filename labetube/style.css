@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-height: 100vh;
+}
+.imagensvideos{
+    height: 150px;
+    width: 200px;
+    padding-bottom: 20px;
+}
+#containerheader{
+    display: flex;
+    background-color: rgb(1, 85, 85);
+    justify-content: space-between;
+}
+.divsheader{
+    display: flex;
+}
+#logo{
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#busca{
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#containermain{
+    display:grid;
+    padding-top: 20px;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(4, 200px);
+    grid-gap: 20px 5px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.divsvideos{
+    display: grid;
+    border: 2px solid rgb(0, 0, 0);
+    overflow: hidden;
+    margin-top: 20px;
+}
+.divsvideos:hover{
+    border: 2px solid rgb(0, 255, 255);
+}
+.divsvideos>p{
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+#containerfooter{
+    display: flex;
+    background-color: rgb(1, 85, 85);
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.containervideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+#containervoltar{
+    padding-bottom: 20px;
+}
+#botaovoltar{
+background-color:rgb(2, 151, 151);
+color: white;
+padding: 5px 20px;
+border: 1px solid black;
+border-radius: 5px;
+cursor: pointer;
+}
+#botaovoltar:hover{
+    background-color:rgb(1, 85, 85);  
+    
+}
