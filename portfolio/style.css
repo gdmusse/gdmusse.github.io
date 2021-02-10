@@ -367,3 +367,201 @@ ol{
 .botao-home:hover{
     background-color:rgb(22, 86, 170);
 }
+
+/* Celular */
+@media screen and (min-width: 320px) and (max-width: 420px) {
+    main{
+       width: 100vw;
+        margin:0;
+        box-sizing: border-box;	
+        padding: 0;
+}
+header {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    background-image: url(./img/fundov3.png);
+}
+
+#menutopo{
+    list-style: none;
+    margin-top: 0;
+    padding-right: 0px;
+    height: 1vh;
+    padding-top: 1vh;
+}
+.menutopo-opcoes{
+    color: #EEFBFB;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.opcoesbg{
+    background: rgb(224, 210, 189, 0.15) ;
+}
+
+#meunome{
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(235, 232, 232);
+    text-align: center;
+    padding-left: 0px;
+    text-shadow: 2px 2px  #000000;
+    margin: 0;
+}
+/*
+Body
+*/
+
+section{
+    margin: 0;
+    display: inline-block;
+    border-top: 2px solid black;
+}
+.icones{
+    width: 150px;
+    height: 150px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.textos{
+    font-size: 20px;
+    text-align:center;
+    margin:0;
+    min-width: 96vw;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.containervoltar{
+    margin:0;
+    padding-bottom: 0;
+    text-align: right;
+}
+.botao-voltar{
+    background-color: rgb(24, 103, 206);
+    color: white;
+    padding: 2.5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.botao-voltar:hover{
+    background-color:rgb(22, 86, 170);
+}
+/* 
+Habilidades 
+*/
+
+.iconeshabilidades{
+    height:0px;
+    width: 0px;
+    padding-right: 0;
+
+}
+.textopequenohabilidades{
+    color: rgb(116, 116, 116);
+    margin:0;
+    padding-bottom: 2vh;
+}
+.habilidadeslista{
+    padding-bottom: 5px;
+}
+.habilidadediferente{
+    text-align: center;
+    font-weight: bold;
+}
+.habilidadesmeio{
+    color: rgb(99, 98, 98);
+    margin:0;
+    text-align: center;
+}
+/* 
+Projetos 
+*/
+
+#projetostexto{
+    text-align: center;
+    font-size: 30px;
+    font-size: 20px;
+    padding-bottom: 25px;
+    margin:0;
+    width: 100vw;
+}
+.projetosimg{
+    height: 250px;
+    width: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5%;
+}
+.projetosimg:hover{
+    height: 260px;
+    width: 310px;
+    transition: 0.2s;
+    border: 3px solid rgb(24, 103, 206);
+}
+.titulotextos{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px  #000000;
+    margin:0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#projetoslista{
+    list-style: none;
+    margin: 0;
+    display: block;
+    padding-left: 0px;
+    text-align: center;
+}
+.projetolistados{
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+}
+.nomedoprojeto{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+/*
+Footer
+*/
+
+footer{
+    padding-top: 25px;
+    background-color: rgb(105, 105, 105);
+    box-sizing: border-box;	
+    text-align: center;
+
+}
+#imagenscontatos{
+    list-style: none;
+    margin-top: 0;
+    min-height: 50px;
+}
+.contatos{
+    display: inline;
+    padding: 0 5px;
+}
+.iconescontatos{
+    height: 40px;
+    width: 40px;
+}
+.footerinteiro{
+        width: 100vw;
+        margin:0 auto;
+        box-sizing: border-box;	
+        height: 15vh;
+        text-align: center;
+}
+
+}
