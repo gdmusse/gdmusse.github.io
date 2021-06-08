@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Adicionar Venda</title>
+  </head>
+  <body>
+    <div id="header">
+      <a href="index.html"
+        ><img src="img/logo.png" width="250" height="100"
+      /></a>
+      <br /><br />
+      <table>
+        <tr>
+          <th><a id="topo" href="ctrl-estoque.html">Controle de Estoque</a></th>
+          <th><a id="topo" href="add-produto.html">Adicionar Produto</a></th>
+          <th><a id="topo" href="funcionarios.html">Funcionários</a></th>
+          <th><a id="topo" href="venda.html">Adicionar Venda</a></th>
+          <th>
+            <a id="topo" href="historicovendas.html">Histórico de Vendas</a>
+          </th>
+        </tr>
+      </table>
+    </div>
+    <h2>Adicionar Venda</h2>
+    <div id="venda">
+      <form action="" id="form">
+        <div>
+          <label for="produtovend">Produto: </label>
+          <input type="url" id="produtovend" name="produto" />
+        </div>
+        <br />
+        <div>
+          <label for="preco">Preço (em R$): </label>
+          <input type="text" id="preço" name="preço" />
+        </div>
+        <br />
+        <div>
+          <label for="quantidadevend">Quantidade: </label>
+          <input
+            type="number"
+            id="quantidadevend"
+            name="quantidadevend"
+            min="1"
+          />
+        </div>
+        <br />
+        <div class="form-add" id="form-add">
+          <button type="submit">Adicionar</button>
+        </div>
+      </form>
+      <br /><br />
+      <div>
+        <table id="vendaadd" border="1">
+          <tr id="vendatopo">
+            <th>Produtos</th>
+            <th>Preço</th>
+            <th>Quantidade</th>
+            <th>Preço Total</th>
+          </tr>
+          <tr>
+            <td>P1</td>
+            <td>a</td>
+            <td>x</td>
+            <td>a.x</td>
+          </tr>
+          <tr>
+            <td>P2</td>
+            <td>b</td>
+            <td>y</td>
+            <td>b.y</td>
+          </tr>
+          <tr>
+            <td>P3</td>
+            <td>c</td>
+            <td>z</td>
+            <td>c.z</td>
+          </tr>
+        </table>
+      </div>
+      <br /><br />
+      <form action="" id="form">
+        <div>
+          <label for="precototal">Preço Total(em R$): </label>
+          <input type="text" id="preçototal" name="preçototal" />
+        </div>
+        <br />
+        <div>
+          <label for="formadepagamento">Forma de Pagamento: </label>
+          <input type="radio" id="dinheiro" name="pagamento" value="dinheiro" />
+          <label for="dinheiro">Dinheiro</label>
+          <input type="radio" id="cartao" name="pagamento" value="cartao" />
+          <label for="cartao">Cartão</label>
+        </div>
+        <br />
+        <div>
+          <label for="vendedor">Vendedor: </label>
+          <select name="vendedor">
+            <option value="gastal">Eduardo Gastal</option>
+            <option value="musse">Gabriel Musse</option>
+            <option value="petrolli">Gabriel Petrolli</option>
+            <option value="golbert">Nicolas Golbert</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="datavenda">Data da Venda: </label>
+          <input type="text" id="datavenda" name="datavenda" />
+        </div>
+        <br />
+        <div class="form-add-venda" id="form-add-venda">
+          <button type="submit">Adicionar Venda</button>
+        </div>
+      </form>
+      <br />
+    </div>
+  </body>
+</html>

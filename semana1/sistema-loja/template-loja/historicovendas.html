@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Histórico de Vendas</title>
+  </head>
+  <body>
+    <div id="header">
+      <a href="index.html"
+        ><img src="img/logo.png" width="250" height="100"
+      /></a>
+      <br /><br />
+      <table>
+        <tr>
+          <th><a id="topo" href="ctrl-estoque.html">Controle de Estoque</a></th>
+          <th><a id="topo" href="add-produto.html">Adicionar Produto</a></th>
+          <th><a id="topo" href="funcionarios.html">Funcionários</a></th>
+          <th><a id="topo" href="venda.html">Adicionar Venda</a></th>
+          <th>
+            <a id="topo" href="historicovendas.html">Histórico de Vendas</a>
+          </th>
+        </tr>
+      </table>
+    </div>
+    <h2>Histórico de Vendas</h2>
+    <div id="buscardata">
+      <input
+        type="text"
+        id="datavenda"
+        name="datavenda"
+        placeholder="Digite aqui a data para filtrar..."
+      />
+      <a id="topo" href="historicovendas.html">BUSCAR 🔎</a>
+    </div>
+    <br /><br /><br />
+    <div id="tabelahistoricovendas">
+      <div>
+        <table id="vendahistorico" border="1">
+          <tr id="vendahistoricotopo">
+            <th>Data</th>
+            <th>Horário</th>
+            <th>Funcionário</th>
+            <th>Valor Total</th>
+            <th>Forma de Pagamento</th>
+          </tr>
+          <tr>
+            <td>01 de janeiro de 2020</td>
+            <td>00:00:00</td>
+            <td>X</td>
+            <td>R$xx</td>
+            <td>Y</td>
+          </tr>
+          <tr>
+            <td>01 de janeiro de 2020</td>
+            <td>00:00:00</td>
+            <td>X</td>
+            <td>R$xx</td>
+            <td>Y</td>
+          </tr>
+          <tr>
+            <td>01 de janeiro de 2020</td>
+            <td>00:00:00</td>
+            <td>X</td>
+            <td>R$xx</td>
+            <td>Y</td>
+          </tr>
+        </table>
+      </div>
+      <br /><br />
+    </div>
+  </body>
+</html>

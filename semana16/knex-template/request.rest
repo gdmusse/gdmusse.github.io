@@ -1,0 +1,42 @@
+GET http://localhost:3003/actors
+###
+
+POST http://localhost:3003/actors
+Content-Type: application/json
+
+{
+    "name": "Keanu Reeves",
+    "birthDate": "1990-01-01",
+    "gender": "male",
+    "salary": 1000000000
+}
+
+###
+
+GET http://localhost:3003/actors/2
+
+###
+GET http://localhost:3003/actors/ree
+
+###
+GET http://localhost:3003/actors?gender=female
+
+###
+PUT http://localhost:3003/actors/4
+Content-Type: application/json
+
+{
+    "salary": 505
+}
+
+###
+DELETE http://localhost:3003/actors/5 
+
+###
+POST http://localhost:3003/actors
+Content-Type: application/json
+
+{
+    "id": 1,
+    "salary": 500
+}

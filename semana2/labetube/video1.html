@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>LabeTube</title>
+  </head>
+  <body>
+    <header>
+      <div id="containerheader">
+        <div id="logo" class="divsheader">
+          <h1>LabeTube</h1>
+        </div>
+        <div id="busca" class="divsheader">
+          <input type="text" id="buscavideo" name="buscavideo" placeholder="Busca..." />
+        </div>
+      </div>
+    </header>
+    <main>
+        <div class="containervideo" id="titulovideo">Vídeo 1</div>
+        <div class="containervideo">
+        <video controls autoplay muted loop>
+            <source src="https://storage.googleapis.com/future-apis.appspot.com/1.mp4" type="video/mp4">
+          </video> 
+        </div>
+        <div class="containervideo" id="containervoltar">
+            <a href="index.html"><button id="botaovoltar"> VOLTAR </button></a>
+        </div>
+    </main>
+    <footer id="footervideo">
+        <div id="containerfooter">
+            <h2>Labetube © 2021 - Gabriel Musse</h2>
+        </div>
+      </footer>
+    </body>
+  </html>

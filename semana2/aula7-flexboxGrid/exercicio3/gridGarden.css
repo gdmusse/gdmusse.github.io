@@ -1,0 +1,87 @@
+/* Exercicio 1 */
+grid-column-start: 3
+
+/* Exercicio 2 */
+grid-column-start: 5;
+
+/* Exercicio 3 */
+grid-column-end: 4;
+
+/* Exercicio 4 */
+grid-column-end: 2;
+
+/* Exercicio 5 */
+grid-column-end: -2;
+
+/* Exercicio 6 */
+grid-column-start: -3;
+
+/* Exercicio 7 */
+grid-column-end: span 2;
+
+/* Exercicio 8 */
+grid-column-end: span 5;
+
+/* Exercicio 9 */
+grid-column-start: span 3;
+
+/* Exercicio 10 */
+grid-column: 4/6;
+
+/* Exercicio 11 */
+grid-column: 2/span 3;
+
+/* Exercicio 12 */
+grid-row-start:3;
+
+/* Exercicio 13 */
+grid-row: 3/6;
+
+/* Exercicio 14 */
+grid-row: 5/6;
+grid-column: 2;
+
+/* Exercicio 15 */
+grid-row: 1/6;
+grid-column: 2/6;
+
+/* Exercicio 16 */
+grid-area: 1/2/4/6;
+
+/* Exercicio 17 */
+grid-area: 2/3/5/6;
+
+/* Exercicio 18 */
+order: 1;
+
+/* Exercicio 19 */
+order: -1;
+
+/* Exercicio 20 */
+grid-template-columns: 50%;
+
+/* Exercicio 21 */
+grid-template-columns: repeat(8,12.5%);
+
+/* Exercicio 22 */
+grid-template-columns: 100px 3em 40%;
+
+/* Exercicio 23 */
+grid-template-columns: 1fr 5fr;
+
+/* Exercicio 24 */
+grid-template-columns: 50px 1fr 1fr 1fr 50px;
+
+/* Exercicio 25 */
+grid-template-columns: 75px 3fr 2fr;
+
+/* Exercicio 26 */
+grid-template-rows: 50px 0fr 0fr 0fr;
+
+/* Exercicio 27 */
+grid-template: 60% / 200px;
+
+/* Exercicio 28 */
+grid-template: 1fr 50px / 20% 80%;
+
+
