@@ -1,0 +1,26 @@
+POST http://localhost:3003/user/signup
+Content-Type: application/json
+
+{
+	"name": "Gabriel",
+	"email": "gabriel@g.com",
+	"password": "theboss",
+	"role": "NORMAL"
+}
+
+###
+POST http://localhost:3003/user/login
+Content-Type: application/json
+
+{
+	"email": "michael@dundermifflin.com",
+	"password": "theboss"
+}
+
+###
+GET http://localhost:3003/user/all
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIxYWJkYzg0LTUyZTEtNDg4MC04YWM4LWQzZDhjMjcxY2EwNCIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTYyMzY4OTk1NSwiZXhwIjoxNjIzNjkxMzk1fQ.-sXpf7g4MOSYAqQM9lKB01cFhRN3QPAMknOwSVc1S2w
+
+###
+DELETE http://localhost:3003/user/9f1b0498-1436-42bb-8a67-452dc932a967
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIxYWJkYzg0LTUyZTEtNDg4MC04YWM4LWQzZDhjMjcxY2EwNCIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTYyMzY4OTk1NSwiZXhwIjoxNjIzNjkxMzk1fQ.-sXpf7g4MOSYAqQM9lKB01cFhRN3QPAMknOwSVc1S2w

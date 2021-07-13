@@ -1,0 +1,54 @@
+POST http://localhost:3003/user/signup
+Content-Type: application/json
+
+{
+    "name": "Felipe",
+    "email": "felipe@g.com",
+    "password": "senha123"
+}
+
+###
+
+POST http://localhost:3003/user/login
+Content-Type: application/json
+
+{
+    "email": "gabriel@g.com",
+    "password": "senha123"
+}
+
+###
+
+PUT http://localhost:3003/post/create
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM3NzY4NDc5LWZkNzQtNGNmNS1iMmRiLWU1YTRhNTI4NmI3NSIsImlhdCI6MTYyNDIwOTM0NiwiZXhwIjoxNjI0MjE0NzQ2fQ.MTTj1pv179AiOwsSZS3YDgFnhopWCbBa155ZJY4Sh4A
+Content-Type: application/json
+
+{
+    "photo": "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGhvdG98ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
+    "description": "Testando post felipe",
+    "type": "event"
+}
+
+###
+GET http://localhost:3003/post/28f62f23-76b4-4246-9224-9916c49a94db
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjRlZGZlNWIyLTdjMmMtNGJhZi05NDllLTg3NjEyYzQ1ZjljYiIsImlhdCI6MTYyNDAyNDg3NiwiZXhwIjoxNjI0MDMwMjc2fQ.M4MDqYetr3e3DPY2AjbB8kYSwLHp8TCtTJ9JZZ8m160
+
+
+###
+POST http://localhost:3003/user/addfriend
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM3NzY4NDc5LWZkNzQtNGNmNS1iMmRiLWU1YTRhNTI4NmI3NSIsImlhdCI6MTYyNDIwOTM0NiwiZXhwIjoxNjI0MjE0NzQ2fQ.MTTj1pv179AiOwsSZS3YDgFnhopWCbBa155ZJY4Sh4A
+Content-Type: application/json
+
+{
+    "id": "4edfe5b2-7c2c-4baf-949e-87612c45f9cb"
+}
+
+
+###
+POST http://localhost:3003/user/removefriend
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM3NzY4NDc5LWZkNzQtNGNmNS1iMmRiLWU1YTRhNTI4NmI3NSIsImlhdCI6MTYyNDIwOTM0NiwiZXhwIjoxNjI0MjE0NzQ2fQ.MTTj1pv179AiOwsSZS3YDgFnhopWCbBa155ZJY4Sh4A
+Content-Type: application/json
+
+{
+    "id": "4edfe5b2-7c2c-4baf-949e-87612c45f9cb"
+}

@@ -1,0 +1,31 @@
+POST http://localhost:3003/user/password/reset
+Content-Type: application/json
+
+{
+    "email": "yuzo@g.com"
+}
+
+###
+
+POST http://localhost:3003/user/signup
+Content-Type: application/json
+
+{
+    "name": "teste01",
+    "nickname": "01",
+    "email": "zeroum@g.com",
+    "password": "senha",
+    "role": "normal",
+    "cep": "90540041",
+    "number": "1338",
+    "complement": "apto 501"
+}
+###
+
+POST http://localhost:3003/user/login
+Content-Type: application/json
+
+{
+    "email": "yuzo@g.com",
+    "password": "B4CE{a[D]["
+}

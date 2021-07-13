@@ -1,0 +1,15 @@
+POST http://localhost:3003/user/signup
+Content-Type: application/json
+
+{
+ 	"name": "Gabriel",
+     "nickname" : "Musse",
+	"email": "gabriel@g.com",
+	"password": "theboss",
+	"role": "NORMAL"
+
+}
+
+###
+
+GET http://localhost:3003/task/1
